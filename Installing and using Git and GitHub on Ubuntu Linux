@@ -1,0 +1,46 @@
+installing git and configuring it
+
+
+1 Installing Git for Linux
+
+sudo apt-get install git
+
+2 Configuring GitHub
+
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+
+
+3 Creating a local repository
+
+git init Mytest
+Initialized empty Git repository in /home/akshay/Mytest/.git/
+cd Mytest
+
+
+4 Creating a README file to describe the repository
+
+
+gedit README
+This is a git repo
+
+
+5 Adding repository files to an index
+
+sample.c
+#include<stdio.h>
+int main()
+{
+printf("hello world");
+return 0;
+}
+
+git add README
+git add sample.c
+
+6 Committing changes made to the index
+
+
+git commit -m "some_message"
+
+
