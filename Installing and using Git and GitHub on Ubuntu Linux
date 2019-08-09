@@ -43,4 +43,12 @@ git add sample.c
 
 git commit -m "some_message"
 
+7 Creating a repository on GitHub
 
+git remote add origin https://github.com/esumanraju/Installing-and-using-Git-and-GitHub-on-Ubuntu-Linux.git
+
+
+8 Pushing files in local repository to GitHub repository
+
+
+git push origin master
